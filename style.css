@@ -1,0 +1,452 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar{
+
+    width: 100vw;
+    height: 13vh;
+
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 0.1px solid #d3ad7f;
+
+    align-items: center;
+    position: fixed;
+
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+
+#logo{
+
+    width: 67.3px;
+    height: 54.8px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+
+
+.NavElements{
+   
+    width: 50%;
+   position: absolute;
+   margin: 500px;
+   
+}
+
+.NavElements a{
+
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+.NavElements a:hover{
+
+    color: #d3ad7f;
+    text-decoration: underline;
+}
+
+
+
+#home{
+    
+    min-height: 100vh;
+    background-image: url(https://raw.githubusercontent.com/NAMAN547/coffee-website/main/images/home-img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+   
+}
+
+
+#home .content{
+
+    width: 50vw;
+    
+}
+
+
+#home .content h3{
+
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    align-items: center;
+
+}
+
+#home .content p{
+
+    color: #eee;
+    margin-left: 100px;
+    
+    font-size: 1.4rem;
+    font-weight: lighter;
+  
+}
+
+/* ---------------------------------------------- About Us ------------------------------------------------ */
+
+#about{
+
+    display: flex;
+    
+}
+
+
+.about_us{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.about_us span:nth-of-type(1){
+
+    color: #d3ad7f;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.about_us span:nth-of-type(1):hover{
+
+    color: #eee;
+}
+
+.about_us span:nth-of-type(2){
+    
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 8px;
+
+}
+
+.about_us span:nth-of-type(2):hover{
+
+    color: #d3ad7f;
+}
+
+.row{
+
+    display: flex;
+    width: 90vw;
+    height: 80vh;
+    margin-left: 60px;
+
+}
+
+.row .image{
+
+   width: 55%;
+   
+}
+
+.row .content{
+
+    padding: 12px;
+    height: 84%;
+    background-color: #13131a;
+    
+}
+
+
+.row .content h3{
+
+    color: white;
+    margin-top: 90px;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+}
+
+.row .content p{
+
+    color: white;
+    padding: 2px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+/* ------------------------------------------- Menu --------------------------------------- */
+
+.our_menu{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.our_menu span:nth-of-type(1){
+
+    color: #eee;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+
+
+.our_menu span:nth-of-type(2){
+
+    color: #d3ad7f;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#menu{
+
+
+}
+
+
+/* ------------------------------------ Review -------------------------------- */
+
+#review{
+
+    display: flex;
+    justify-content: center;
+}
+
+#review div{
+
+    width: 430px;
+    height: 430px;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    border: 1px solid #d8be9f;
+}
+
+#review div img{
+
+    padding: 25px;
+    margin-left: 150px;
+}
+
+
+#review div p{
+
+    color: #CCCCCC;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+#review div p:nth-of-type(4){
+
+    color: #CCCCCC;
+    margin-left: 20px;
+}
+
+#review div p:nth-of-type(2){
+
+    color: #CCCCCC;
+    margin-left: 45px;
+}
+
+#review div p:nth-of-type(3){
+
+    color: #CCCCCC;
+    margin-left: 50px;
+}
+
+#review div p:nth-of-type(5){
+
+    color: #CCCCCC;
+    margin-left: 180px;
+}
+
+
+#review div .person{
+
+    width: 80px;
+    border-radius: 50%;
+}
+
+#review div .person:hover{
+
+    width: 60px;
+}
+
+
+#review div h1{
+
+    color: #eee;
+    text-align: center;
+    
+}
+
+
+
+/* -------------------------------- Our blogs -------------------------- */
+
+.our_blogs{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.our_blogs span:nth-of-type(1){
+
+    color: #eee;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+
+
+.our_blogs span:nth-of-type(2){
+
+    color: #d3ad7f;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#blogs{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#blogs div{
+    
+    width: 430px;
+    border: 1px solid #d8be9f;
+}
+
+#blogs img{
+
+    width: 100%;
+   
+}
+
+
+#blogs div:nth-of-type(2){
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+#blogs div h3{
+
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+#blogs div h4{
+
+    color: #d3ad7f;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#blogs div p{
+
+    color: #f3e9dd;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+
+/* ----------------------------------- footer ----------------------------------- */
+
+.share{
+    
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 30px;
+    background-color: #13131a;
+
+}
+
+.share img{
+
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    width: 60px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.share .facebook:hover{
+
+    background-color: #4267B2;
+}
+
+
+.share .linkedin:hover{
+
+    background-color: #0077B5;
+}
+
+
+.share .twitter:hover{
+
+    background-color: #1DA1F2;
+}
+
+.share .instagram:hover{
+
+    background-color: pink;
+}
+
+
+.share .pinterest:hover{
+
+    background-color: #E60023;
+}
+
+
+
+
+
+
+
+
